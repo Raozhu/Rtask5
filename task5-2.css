@@ -1,0 +1,99 @@
+*{  padding: 0;margin: 0;
+    font-family:微软雅黑;
+    }
+body{
+    min-width: 320px;
+    width: 100%;
+    height:100%
+}
+
+#top{position: fixed;
+    top:0;
+    width:100%}
+
+#header{background-color:#5ec0ce;
+    text-align:center;
+    padding:0.3em 1em;}
+#header input{
+    border-style: none;
+    color:white;
+    background:#55a7b3;
+    font-size:1em;
+    padding:0.3em 0.7em;
+    border-radius:5px;
+    margin-right:-0.2em;
+}
+#header img{
+    float: right;
+    height:2em;
+    margin-top:0.3em;
+}
+
+#down-ms{
+    background-color: white;
+    border-bottom:solid 1px #cccccc ;
+    color: darkgray;
+    font-size:1em;
+    padding:1em 1em 2.5em 2em;
+}
+#down-ms img{
+  float:right;
+    margin-top:0.4em;
+}
+#down-ms div{
+    width:30%;
+}
+
+#main{
+    margin-top:110px;
+    padding:1em 1em 1em 2em;
+}
+#main img{
+    float:right;
+    height:1.5em;
+}
+
+#main p{
+    line-height:2em;
+    display: list-item;
+    font-size: 0.8em;
+    color:darkgray;
+}
+#main div{
+    margin-bottom: 2em;
+
+}
+.date{
+    list-style-image: url("images/calendar.png");
+}
+.site{
+    list-style-image: url("images/position-3.png");
+}
+.wage{
+    margin-right:1em;
+    font-size: 1em;
+    float:right;
+    color:red;
+    line-height: 1.2em;
+}
+.time{
+    font-size:0.8em;
+}
+
+#bottom{
+    font-size: 0.8em;
+    width:100%;
+    background-color:white;
+    position:fixed;
+    bottom:1px;
+    text-align: center;
+}
+#bottom input{
+    border-style: none;
+    border-radius: 100%;
+    height: 4.5em;
+    width: 4.5em;
+    background: url("images/write.png")no-repeat 55% 47%;
+    background-color: #5ec0ce;
+
+}
